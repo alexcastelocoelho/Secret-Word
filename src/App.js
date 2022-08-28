@@ -49,9 +49,7 @@ function App() {
 
     let wordLetters = word.split("")
 
-    wordLetters = wordLetters.map((l) => l.toLowerCase())
-
-    
+    wordLetters = wordLetters.map((l) => l.toLowerCase())  
 
     setPickedWord(word)
     setPickedCategory(category)
@@ -81,9 +79,7 @@ function App() {
       ])
 
       setGuesses((actualGuesse) => actualGuesse -1)
-    }
-
-   
+    }   
     
   }
 
